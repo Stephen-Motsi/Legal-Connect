@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="3225191_app_instagram_logo_media_popular_icon.png" class="logo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="bc1fecc34f846a2093303fa7d40edfc1.jpg" class="user-pic" onclick="toggleMenu()">
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="bc1fecc34f846a2093303fa7d40edfc1.jpg" alt="">
+                        <h3>User</h3>
+                    </div>
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+                        <img src="" alt="">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="" alt="">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="" alt="">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+</body>
+</html>
