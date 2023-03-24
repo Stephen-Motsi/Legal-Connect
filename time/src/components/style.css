@@ -1,0 +1,32 @@
+/* Styling for the label and select elements */
+label,
+select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling for the input elements */
+input[type="number"] {
+    width: 100px;
+    margin-right: 10px;
+}
+
+/* Styling for the button elements */
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
