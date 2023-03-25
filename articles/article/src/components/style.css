@@ -1,0 +1,155 @@
+/* Style the header */
+header {
+  background-color: #FF5733;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #C70039;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 0.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the main content */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+section {
+  width: 70%;
+}
+
+aside {
+  width: 25%;
+  margin-left: 1rem;
+}
+
+/* Style the article cards */
+.card {
+  background-color: #F5D5CB;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+/* Style the article form */
+form {
+  background-color: #F5D5CB;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+form button[type="submit"] {
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Style the search form */
+.search-form {
+  background-color: #F5D5CB;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.search-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.search-form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.search-form button[type="submit"] {
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Style the search results */
+.search-results {
+  margin-top: 1rem;
+}
+
+.search-results h3 {
+  margin-top: 0;
+}
+
+.search-results ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.search-results li {
+  margin-bottom: 1rem;
+}
+
+.search-results li h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.search-results li p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.search-results li p:first-child {
+  font-weight: bold;
+}
